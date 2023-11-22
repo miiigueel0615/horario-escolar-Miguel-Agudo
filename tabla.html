@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        
+        td:nth-child(odd) {
+            background-color:lightgreen;
+        }
+
+        td:nth-child(even) {
+            background-color:lightgreen;
+        }
+        
+        tr:nth-child(4) td {
+            background-color:lightblue;
+
+    </style>
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>8:00-8:55</th>
+            <td>Empresa e iniciativa</td>
+            <td>Inglés tecnico</td>
+            <td rowspan="2">Aplicaciones web</td>
+            <td rowspan="2">Seguridad informatica</td>
+            <td rowspan="2">Servicios en red</td>
+        </tr>
+        <tr>
+            <th>8:55-9:50</th>
+            <td rowspan="2">Servicion en red</td>
+            <td>Empresa e iniciativa</td>
+        </tr>
+        <tr>
+            <th>9:50-10:45</th>
+            <td>Servicios en red</td>
+            <td>Servicios en red</td>
+            <td>Inglés tecnico</td>
+            <td>Aplicaciones web</td>
+        </tr>
+        <tr>
+            <th>10:45-11:10</th>
+            <td>P</td>
+            <td>A</td>
+            <td>T</td>
+            <td>I</td>
+            <td>O</td>
+        </tr>
+        <tr>
+            <th>11:10-12:05</th>
+            <td>Seguridad informatica</td>
+            <td></td>
+            <td></td>
+            <td rowspan="2">Sistemas operativos</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>12:05-13:00</th>
+            <td rowspan="2">Sistemas operativos</td>
+            <td rowspan="2">Sistemas operativos</td>
+            <td rowspan="2">Sistemas operativos</td>
+            <td rowspan="2">Seguridad informatica</td>
+        </tr>
+        <tr>
+            <th>13:00-13:55</th>
+            <td>Empresa e iniciativa</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
